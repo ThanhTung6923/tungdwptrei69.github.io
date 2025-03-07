@@ -1,53 +1,50 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    text-align: center;
+    color: #333;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #0073e6;
     color: white;
     padding: 20px;
+    text-align: center;
     font-size: 24px;
 }
 
-.intro, .career-list {
-    margin: 20px;
-    padding: 20px;
+.intro, .career-list, .workshops {
+    width: 80%;
+    margin: 20px auto;
     background: white;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.career-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+h2 {
+    color: #0073e6;
 }
 
-.career {
-    width: 300px;
-    background: #fff;
+.project, .career {
+    background: #e6f2ff;
     padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
-.career img {
-    width: 100%;
-    border-radius: 8px;
+ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
 
 footer {
-    background: #007bff;
+    background: #0073e6;
     color: white;
+    text-align: center;
     padding: 10px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
